@@ -106,7 +106,7 @@ header{
         border-radius: 8px ;
         border: 1px;
         opacity: 0px;
-        
+        cursor: pointer;
         border: 1px solid rgba(255, 255, 255, 1)
         
     }
@@ -162,7 +162,7 @@ header{
         border-radius: 8px ;
         border: solid 1px ;
         margin-top: 50px;
-        position:  ;
+        position: relative ;
   
 
       }
@@ -819,15 +819,18 @@ text-align: left;
 
 .map-section .text-section button {
     width: 185px;
-height: 56px;
+    height: 56px;
 
-padding: 0px 16px 0px 16px;
-gap: 0px;
-border-radius: 8px ;
-opacity: 0px;
-background: #5B5AF7;
-border-color: transparent;
-margin-top: 20px;
+    padding: 0px 16px 0px 16px;
+    gap: 0px;
+    border-radius: 8px ;
+    opacity: 0px;
+    background: #5B5AF7;
+    border-color: transparent;
+    margin-top: 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 90px;
 
 }
 
